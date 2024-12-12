@@ -41,7 +41,6 @@ function saveTask(tasks) {
 }
 
 
-
 /**
  * Removes the task with the given ID from the JSON file.
  * @param {number} id The ID of the task to be removed.
