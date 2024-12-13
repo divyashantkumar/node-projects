@@ -39,7 +39,6 @@ function loadTasks() {
 function saveTask(tasks) {
     fs.writeFileSync(filePath, JSON.stringify(tasks));
 }
--
 
 /**
  * Removes the task with the given ID from the JSON file.
@@ -59,6 +58,7 @@ function removeTask(id) {
         console.log("Task Not Found! Please pass correct Id");
     }
 }
+
 
 /**
  * Updates the task with the given ID in the JSON file.
@@ -89,22 +89,17 @@ if (command === "add") {     // add task to the JSON file
         status: "todo", // todo/progress/done/halt
         comment: "",
     };
-
     const tasks = loadTasks();
-
     tasks.push({ ...task });
-
     saveTask(tasks);
 } else if (command === "list") {  // list all the tasks to console
     const tasks = loadTasks();
     tasks.forEach(element => {
         console.log(element.id, " : ", element.task);
     });
-
 } else if (command === "remove") {   // remove task from the JSON file
-} else if (command === "remove") {   // remove task from the JSON file
-} else if (command === "remove") {   // remove task from the JSON file
-    removeTask(Number.parseInt(argument));
+    const id = Number.parseInt(argument);
+    removeTask(id);
 } else if (command === "update") {
     const updated_task = process.argv[4];
     const id = Number.parseInt(argument);
