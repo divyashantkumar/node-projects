@@ -2,6 +2,7 @@
   "name": "cli-application-setup",
   "version": "1.0.0",
   "main": "app.js",
+  "type": "module",
   "bin": {
     "app": "./app.js"
   },
