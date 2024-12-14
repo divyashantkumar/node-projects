@@ -2,12 +2,13 @@
   "name": "todo-app",
   "version": "1.0.0",
   "main": "index.js",
+  "preferGlobal": true,
   "bin": {
     "todo": "./index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
+    
     "addtask": "node index.js add",
     "listtask": "node index.js list",
     "removetask": "node index.js remove",

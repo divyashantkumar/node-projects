@@ -85,7 +85,7 @@ function updateTask(id, updatedTask) {
 
 
 
-if (command === "add") {     // add task to the JSON file
+if (command === "add" || command === "a") {     // add task to the JSON file
     const task = {
         id: Date.now(),
         task: argument,
@@ -95,15 +95,15 @@ if (command === "add") {     // add task to the JSON file
     const tasks = loadTasks();
     tasks.push({ ...task });
     saveTask(tasks);
-} else if (command === "list") {  // list all the tasks to console
+} else if (command === "list" || command === "l") {  // list all the tasks to console
     const tasks = loadTasks();
     tasks.forEach(element => {
         console.log(element.id, " : ", element.task);
     });
-} else if (command === "remove") {   // remove task from the JSON file
+} else if (command === "remove"  || command === "d") {   // remove task from the JSON file
     const id = Number.parseInt(argument);
     removeTask(id);
-} else if (command === "update") {
+} else if (command === "update"  || command === "u") {   // update task from the JSON file
     const updated_task = process.argv[4];
     const id = Number.parseInt(argument);
 
