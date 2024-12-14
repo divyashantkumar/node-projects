@@ -1,4 +1,7 @@
+#!/usr/bin/env node
+
 const fs = require('fs');
+const { version } = require('process');
 const filePath = './tasks.json';
 
 
