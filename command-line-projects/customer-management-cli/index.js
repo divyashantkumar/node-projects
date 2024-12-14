@@ -1,5 +1,7 @@
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
+// import Customer Model
+const Customer = require('./models/customer');
 
 dotenv.config();
 
@@ -15,10 +17,6 @@ const connectDB = async () => {
 }
 const db = connectDB();
 
-
-// import Customer Model
-const Customer = require('./models/customer');
-
 // Add Customer Function
 const addCustomer = (customer) => {
     Customer.create(customer).then((customer) => {
@@ -32,7 +30,7 @@ const findCustomer = (name) => {
     // make case insensitive
     const search = new RegExp(name, 'i');
 
-    Customer.findOne({$or: [{firstname: search}, {lastname: search}]}).then((customer) => {
+    Customer.findOne({ $or: [{ firstname: search }, { lastname: search }] }).then((customer) => {
         if (customer) {
             console.info(customer);
             console.info(`${customer.length} Customers Found`);
@@ -43,7 +41,34 @@ const findCustomer = (name) => {
     })
 }
 
+// Update customer function
+const updateCustomer = (_id, customer) => {
+    Customer.updateOne({ _id }, customer).then((customer) => {
+        console.log("Customer Updated : ", customer);
+    })
+}
+
+// Delete customer function
+const deleteCustomer = (_id) => {
+    Customer.deleteOne({ _id }).then((customer) => {
+        console.log("Customer Deleted : ", customer);
+    })
+}
+
+// List all customers function
+const listCustomers = () => {
+    Customer.find().then((customers) => {
+        console.log("Number of Customers: ", customers.length);
+        customers.forEach((customer) => {
+            console.info(customer);
+        })
+    })
+}
+
 module.exports = {
     addCustomer,
-    findCustomer
+    findCustomer,
+    updateCustomer,
+    deleteCustomer,
+    listCustomers
 }
