@@ -1,3 +1,10 @@
+#!/usr/bin/env node
+
+// Above line called "Shebang" makes the script executable from the command line. It is 
+// standard practice to include this line at the top of executable node.js 
+// scripts. See https://stackoverflow.com/a/13364275/1175496 for more details.
+
+
 const { Command } = require('commander');
 const enquirer = require('inquirer');
 

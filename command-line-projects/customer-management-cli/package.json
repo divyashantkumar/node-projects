@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "Customer Management CLI",
   "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "cli-customer": "./commands.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "create_symlink": "npm link"
   },
   "author": "",
   "license": "ISC",
