@@ -4,8 +4,9 @@
   "description": "Covid-19 Vaccination Slot Tracker",
   "main": "./bin/index.js",
   "type": "commonjs",
+  "preferGlobal": true,
   "bin": {
-    "cli-covid-19": "./bin/index.js"
+    "cli-cowin": "./bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,8 +16,9 @@
   "dependencies": {
     "axios": "^1.7.9",
     "chalk": "^4.1.2",
+    "cli-spinners": "^3.2.0",
     "commander": "^12.1.0",
-    "enquirer": "^2.4.1",
+    "inquirer": "^12.2.0",
     "node-notifier": "^10.0.1",
     "tty-table": "^4.2.3"
   }

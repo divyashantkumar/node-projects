@@ -63,7 +63,7 @@ exports.ttyTableCentersHeader = [
     },
     {
         alias: "Minimum age limit",
-        value: "min_age_limit",
+        value: "age",
         headerColor: "cyan",
         color: "white",
         align: "left",
