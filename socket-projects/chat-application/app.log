@@ -1,0 +1,34 @@
+{"level":"\u001b[32minfo\u001b[39m","message":"Hello Home Page","timestamp":"2024-12-31T09:50:14.120Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/\",\"status\":\"200\",\"responseTime\":\"22.856\"}","timestamp":"2024-12-31T09:50:14.136Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Request origin:","timestamp":"2024-12-31T09:50:14.177Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/js/client.socket.js\",\"status\":\"200\",\"responseTime\":\"9.160\"}","timestamp":"2024-12-31T09:50:14.186Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/favicon.ico\",\"status\":\"404\",\"responseTime\":\"1.606\"}","timestamp":"2024-12-31T09:50:14.392Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Hello Home Page","timestamp":"2024-12-31T09:50:16.717Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/\",\"status\":\"200\",\"responseTime\":\"5.093\"}","timestamp":"2024-12-31T09:50:16.721Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Request origin:","timestamp":"2024-12-31T09:50:16.791Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/js/client.socket.js\",\"status\":\"200\",\"responseTime\":\"8.523\"}","timestamp":"2024-12-31T09:50:16.799Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/favicon.ico\",\"status\":\"404\",\"responseTime\":\"0.833\"}","timestamp":"2024-12-31T09:50:16.910Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Hello Home Page","timestamp":"2024-12-31T09:50:42.014Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/\",\"status\":\"304\",\"responseTime\":\"3.460\"}","timestamp":"2024-12-31T09:50:42.018Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Request origin:","timestamp":"2024-12-31T09:50:42.054Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/js/client.socket.js\",\"status\":\"304\",\"responseTime\":\"5.322\"}","timestamp":"2024-12-31T09:50:42.059Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Hello Home Page","timestamp":"2024-12-31T09:50:42.771Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/\",\"status\":\"304\",\"responseTime\":\"2.656\"}","timestamp":"2024-12-31T09:50:42.773Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Request origin:","timestamp":"2024-12-31T09:50:42.822Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/js/client.socket.js\",\"status\":\"304\",\"responseTime\":\"1.896\"}","timestamp":"2024-12-31T09:50:42.825Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Hello Home Page","timestamp":"2024-12-31T09:50:45.389Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/\",\"status\":\"304\",\"responseTime\":\"5.823\"}","timestamp":"2024-12-31T09:50:45.394Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Request origin:","timestamp":"2024-12-31T09:50:45.431Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/js/client.socket.js\",\"status\":\"304\",\"responseTime\":\"1.633\"}","timestamp":"2024-12-31T09:50:45.432Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Hello Home Page","timestamp":"2024-12-31T09:51:37.023Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/\",\"status\":\"304\",\"responseTime\":\"21.465\"}","timestamp":"2024-12-31T09:51:37.041Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Request origin:","timestamp":"2024-12-31T09:51:37.080Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/js/client.socket.js\",\"status\":\"304\",\"responseTime\":\"7.797\"}","timestamp":"2024-12-31T09:51:37.087Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Hello Home Page","timestamp":"2024-12-31T09:51:40.070Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/\",\"status\":\"304\",\"responseTime\":\"2.974\"}","timestamp":"2024-12-31T09:51:40.073Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Request origin:","timestamp":"2024-12-31T09:51:40.110Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/js/client.socket.js\",\"status\":\"304\",\"responseTime\":\"5.719\"}","timestamp":"2024-12-31T09:51:40.116Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Hello Home Page","timestamp":"2024-12-31T09:52:21.727Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/\",\"status\":\"304\",\"responseTime\":\"9.749\"}","timestamp":"2024-12-31T09:52:21.735Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Request origin:","timestamp":"2024-12-31T09:52:21.999Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/js/client.socket.js\",\"status\":\"304\",\"responseTime\":\"4.176\"}","timestamp":"2024-12-31T09:52:22.003Z"}
